@@ -1,8 +1,8 @@
 algoritmo "Cadastro (Riquelme) 2"
-// FunÁ„o :
+// Fun√ß√£o :
 // Autor :
 // Data : 23/03/2023
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 nome: caractere
 CPF, CPFConsultado: caractere
@@ -38,11 +38,11 @@ escreval("Diga seu CPF")
 leia(CPF)
 escreval("Diga seu RG")
 leia(RG)
-escreval("Diga seu EndereÁo")
+escreval("Diga seu Endere√ßo")
 leia(END)
 escreval("Diga o nome do seu pai")
 leia(NP)
-escreval("Diga o nome da sua m„e")
+escreval("Diga o nome da sua m√£e")
 leia(NM)
 escreval("Informe a Modalidade Escolar")
 escreval("Digite 1 Escola Regular")
@@ -78,7 +78,7 @@ fimse
 
 ate Senha = CS
 
-//FIM CADASTRO E VALIDA«√O SENHA
+//FIM CADASTRO E VALIDA√á√ÉO SENHA
 
 escreval("Informe a Renda Familiar")
 escreval ("DIGITE 1 - De R$1000 a R$2000")
@@ -136,7 +136,7 @@ leia(QuantMicroondas)
 
 
 
-// INICIO REGRA DE NEGOCIO PARA A APROVA«√O DA ISEN«√O
+// INICIO REGRA DE NEGOCIO PARA A APROVA√á√ÉO DA ISEN√á√ÉO
 se (Isencao < 600) e (TE = 2) e (QuantCarros < 2) e (QuantMotos < 3) e (QuantGeladeiras < 2) e (QuantFreezer < 2) e (QuantML < 2) e (QuantSecadores < 2) e (QuantCelulares < 3) e (QuantTVs < 2) e (QuantMicroondas < 2) entao
 escreval("Isencao Aprovada")
 senao
@@ -150,19 +150,19 @@ repita
 escreval("Informe seu CPF")
 leia(CPFConsultado)
 se (CPF = CPFConsultado) entao
-escreval("1 Confirma sua InscriÁao")
+escreval("1 Confirma sua Inscri√ßao")
 escreval("2 Para Sair")
 
 leia(Confirme)
 
 se (Confirme= 1) entao
-escreval("InscriÁao Realizada Com Sucesso")
+escreval("Inscri√ßao Realizada Com Sucesso")
 
 escreval("Nome:", nome)
 escreval("Data de Nascimento:", DdN)
 escreval("CPF:", CPF)
 escreval("RG:", RG)
-escreval("EndereÁo:", END)
+escreval("Endere√ßo:", END)
 escreval("Nome da mae:", NM)
 escreval("Nome do pai:", NP)
 escreval("Data de Nascimento:", DdN)
@@ -182,5 +182,5 @@ fimse
 
 
 ate (Enem = 0)
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
